@@ -20,6 +20,8 @@
 		7B350ED3271ED49A00CCF7CF /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B350ED2271ED49A00CCF7CF /* SignupViewController.swift */; };
 		7BDE6F492721374900625679 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDE6F482721374900625679 /* PeopleViewController.swift */; };
 		7BDE6F4B272142A800625679 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDE6F4A272142A800625679 /* UserModel.swift */; };
+		7BDE6F4D2721845B00625679 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDE6F4C2721845B00625679 /* ChatViewController.swift */; };
+		7BDE6F502721856C00625679 /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDE6F4F2721856C00625679 /* ChatModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		7B350ED2271ED49A00CCF7CF /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		7BDE6F482721374900625679 /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
 		7BDE6F4A272142A800625679 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		7BDE6F4C2721845B00625679 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		7BDE6F4F2721856C00625679 /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
 		A743BE3BF8612D446C291F8C /* Pods_HowlTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HowlTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -92,6 +96,7 @@
 		7B350EB7271DA02700CCF7CF /* HowlTalk */ = {
 			isa = PBXGroup;
 			children = (
+				7BDE6F4E2721854400625679 /* Model */,
 				7B350ECC271DABD200CCF7CF /* GoogleService-Info.plist */,
 				7B350EB8271DA02700CCF7CF /* AppDelegate.swift */,
 				7B350EBA271DA02700CCF7CF /* SceneDelegate.swift */,
@@ -103,10 +108,19 @@
 				7B350ECE271DBE2C00CCF7CF /* RemoteConfigDefaults.plist */,
 				7B350ED0271EC92300CCF7CF /* LoginViewController.swift */,
 				7B350ED2271ED49A00CCF7CF /* SignupViewController.swift */,
+				7BDE6F4C2721845B00625679 /* ChatViewController.swift */,
 				7BDE6F482721374900625679 /* PeopleViewController.swift */,
-				7BDE6F4A272142A800625679 /* UserModel.swift */,
 			);
 			path = HowlTalk;
+			sourceTree = "<group>";
+		};
+		7BDE6F4E2721854400625679 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7BDE6F4A272142A800625679 /* UserModel.swift */,
+				7BDE6F4F2721856C00625679 /* ChatModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,11 +242,13 @@
 			files = (
 				7B350ED1271EC92300CCF7CF /* LoginViewController.swift in Sources */,
 				7BDE6F4B272142A800625679 /* UserModel.swift in Sources */,
+				7BDE6F4D2721845B00625679 /* ChatViewController.swift in Sources */,
 				7B350EBD271DA02700CCF7CF /* ViewController.swift in Sources */,
 				7B350ED3271ED49A00CCF7CF /* SignupViewController.swift in Sources */,
 				7BDE6F492721374900625679 /* PeopleViewController.swift in Sources */,
 				7B350EB9271DA02700CCF7CF /* AppDelegate.swift in Sources */,
 				7B350EBB271DA02700CCF7CF /* SceneDelegate.swift in Sources */,
+				7BDE6F502721856C00625679 /* ChatModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
