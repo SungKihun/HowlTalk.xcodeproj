@@ -18,7 +18,8 @@
 		7B350ECF271DBE2C00CCF7CF /* RemoteConfigDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7B350ECE271DBE2C00CCF7CF /* RemoteConfigDefaults.plist */; };
 		7B350ED1271EC92300CCF7CF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B350ED0271EC92300CCF7CF /* LoginViewController.swift */; };
 		7B350ED3271ED49A00CCF7CF /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B350ED2271ED49A00CCF7CF /* SignupViewController.swift */; };
-		7BDE6F492721374900625679 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDE6F482721374900625679 /* MainViewController.swift */; };
+		7BDE6F492721374900625679 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDE6F482721374900625679 /* PeopleViewController.swift */; };
+		7BDE6F4B272142A800625679 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDE6F4A272142A800625679 /* UserModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +37,8 @@
 		7B350ECE271DBE2C00CCF7CF /* RemoteConfigDefaults.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = RemoteConfigDefaults.plist; sourceTree = "<group>"; };
 		7B350ED0271EC92300CCF7CF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		7B350ED2271ED49A00CCF7CF /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
-		7BDE6F482721374900625679 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		7BDE6F482721374900625679 /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
+		7BDE6F4A272142A800625679 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		A743BE3BF8612D446C291F8C /* Pods_HowlTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HowlTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -101,7 +103,8 @@
 				7B350ECE271DBE2C00CCF7CF /* RemoteConfigDefaults.plist */,
 				7B350ED0271EC92300CCF7CF /* LoginViewController.swift */,
 				7B350ED2271ED49A00CCF7CF /* SignupViewController.swift */,
-				7BDE6F482721374900625679 /* MainViewController.swift */,
+				7BDE6F482721374900625679 /* PeopleViewController.swift */,
+				7BDE6F4A272142A800625679 /* UserModel.swift */,
 			);
 			path = HowlTalk;
 			sourceTree = "<group>";
@@ -224,9 +227,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B350ED1271EC92300CCF7CF /* LoginViewController.swift in Sources */,
+				7BDE6F4B272142A800625679 /* UserModel.swift in Sources */,
 				7B350EBD271DA02700CCF7CF /* ViewController.swift in Sources */,
 				7B350ED3271ED49A00CCF7CF /* SignupViewController.swift in Sources */,
-				7BDE6F492721374900625679 /* MainViewController.swift in Sources */,
+				7BDE6F492721374900625679 /* PeopleViewController.swift in Sources */,
 				7B350EB9271DA02700CCF7CF /* AppDelegate.swift in Sources */,
 				7B350EBB271DA02700CCF7CF /* SceneDelegate.swift in Sources */,
 			);
