@@ -14,11 +14,11 @@
 		7B350EC0271DA02700CCF7CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B350EBE271DA02700CCF7CF /* Main.storyboard */; };
 		7B350EC2271DA02900CCF7CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B350EC1271DA02900CCF7CF /* Assets.xcassets */; };
 		7B350EC5271DA02900CCF7CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B350EC3271DA02900CCF7CF /* LaunchScreen.storyboard */; };
-		7B350ECD271DABD200CCF7CF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7B350ECC271DABD200CCF7CF /* GoogleService-Info.plist */; };
 		7B350ECF271DBE2C00CCF7CF /* RemoteConfigDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7B350ECE271DBE2C00CCF7CF /* RemoteConfigDefaults.plist */; };
 		7B350ED1271EC92300CCF7CF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B350ED0271EC92300CCF7CF /* LoginViewController.swift */; };
 		7B350ED3271ED49A00CCF7CF /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B350ED2271ED49A00CCF7CF /* SignupViewController.swift */; };
 		7BA6F68B27259FB6002F36B4 /* ChatRoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA6F68A27259FB6002F36B4 /* ChatRoomsViewController.swift */; };
+		7BDBEE9F2737E89B00DAE8B0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7BDBEE9E2737E89B00DAE8B0 /* GoogleService-Info.plist */; };
 		7BDE6F492721374900625679 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDE6F482721374900625679 /* PeopleViewController.swift */; };
 		7BDE6F4B272142A800625679 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDE6F4A272142A800625679 /* UserModel.swift */; };
 		7BDE6F4D2721845B00625679 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDE6F4C2721845B00625679 /* ChatViewController.swift */; };
@@ -36,15 +36,16 @@
 		7B350EC1271DA02900CCF7CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B350EC4271DA02900CCF7CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B350EC6271DA02900CCF7CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7B350ECC271DABD200CCF7CF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7B350ECE271DBE2C00CCF7CF /* RemoteConfigDefaults.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = RemoteConfigDefaults.plist; sourceTree = "<group>"; };
 		7B350ED0271EC92300CCF7CF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		7B350ED2271ED49A00CCF7CF /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		7BA6F68A27259FB6002F36B4 /* ChatRoomsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomsViewController.swift; sourceTree = "<group>"; };
+		7BDBEE9E2737E89B00DAE8B0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7BDE6F482721374900625679 /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
 		7BDE6F4A272142A800625679 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		7BDE6F4C2721845B00625679 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		7BDE6F4F2721856C00625679 /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
+		7BED96E527328DD30044FA78 /* HowlTalk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HowlTalk.entitlements; sourceTree = "<group>"; };
 		A743BE3BF8612D446C291F8C /* Pods_HowlTalk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HowlTalk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -98,9 +99,10 @@
 		7B350EB7271DA02700CCF7CF /* HowlTalk */ = {
 			isa = PBXGroup;
 			children = (
+				7BED96E527328DD30044FA78 /* HowlTalk.entitlements */,
 				7BA6F68927259F71002F36B4 /* TabBar */,
 				7BDE6F4E2721854400625679 /* Model */,
-				7B350ECC271DABD200CCF7CF /* GoogleService-Info.plist */,
+				7BDBEE9E2737E89B00DAE8B0 /* GoogleService-Info.plist */,
 				7B350EB8271DA02700CCF7CF /* AppDelegate.swift */,
 				7B350EBA271DA02700CCF7CF /* SceneDelegate.swift */,
 				7B350EBC271DA02700CCF7CF /* ViewController.swift */,
@@ -196,7 +198,7 @@
 			files = (
 				7B350EC5271DA02900CCF7CF /* LaunchScreen.storyboard in Resources */,
 				7B350ECF271DBE2C00CCF7CF /* RemoteConfigDefaults.plist in Resources */,
-				7B350ECD271DABD200CCF7CF /* GoogleService-Info.plist in Resources */,
+				7BDBEE9F2737E89B00DAE8B0 /* GoogleService-Info.plist in Resources */,
 				7B350EC2271DA02900CCF7CF /* Assets.xcassets in Resources */,
 				7B350EC0271DA02700CCF7CF /* Main.storyboard in Resources */,
 			);
@@ -408,22 +410,26 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HowlTalk/HowlTalk.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 46ZSHLBGKW;
+				DEVELOPMENT_TEAM = Q7GAMSRDQJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HowlTalk/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HowlTalk;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.SungKihun.HowlTalk;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KihunSung.HowlTalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -437,22 +443,26 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HowlTalk/HowlTalk.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 46ZSHLBGKW;
+				DEVELOPMENT_TEAM = Q7GAMSRDQJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HowlTalk/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HowlTalk;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.SungKihun.HowlTalk;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KihunSung.HowlTalk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
