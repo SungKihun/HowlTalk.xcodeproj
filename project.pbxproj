@@ -19,6 +19,7 @@
 		7B350ED1271EC92300CCF7CF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B350ED0271EC92300CCF7CF /* LoginViewController.swift */; };
 		7B350ED3271ED49A00CCF7CF /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B350ED2271ED49A00CCF7CF /* SignupViewController.swift */; };
 		7BA6F68B27259FB6002F36B4 /* ChatRoomsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA6F68A27259FB6002F36B4 /* ChatRoomsViewController.swift */; };
+		7BD31561273A43F900372325 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD31560273A43F900372325 /* AccountViewController.swift */; };
 		7BDBEE9F2737E89B00DAE8B0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7BDBEE9E2737E89B00DAE8B0 /* GoogleService-Info.plist */; };
 		7BDE6F492721374900625679 /* PeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDE6F482721374900625679 /* PeopleViewController.swift */; };
 		7BDE6F4B272142A800625679 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDE6F4A272142A800625679 /* UserModel.swift */; };
@@ -42,6 +43,7 @@
 		7B350ED0271EC92300CCF7CF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		7B350ED2271ED49A00CCF7CF /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		7BA6F68A27259FB6002F36B4 /* ChatRoomsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomsViewController.swift; sourceTree = "<group>"; };
+		7BD31560273A43F900372325 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		7BDBEE9E2737E89B00DAE8B0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7BDE6F482721374900625679 /* PeopleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleViewController.swift; sourceTree = "<group>"; };
 		7BDE6F4A272142A800625679 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 			children = (
 				7BDE6F482721374900625679 /* PeopleViewController.swift */,
 				7BA6F68A27259FB6002F36B4 /* ChatRoomsViewController.swift */,
+				7BD31560273A43F900372325 /* AccountViewController.swift */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				7B350ED1271EC92300CCF7CF /* LoginViewController.swift in Sources */,
 				7BA6F68B27259FB6002F36B4 /* ChatRoomsViewController.swift in Sources */,
+				7BD31561273A43F900372325 /* AccountViewController.swift in Sources */,
 				7BDE6F4B272142A800625679 /* UserModel.swift in Sources */,
 				7BDE6F4D2721845B00625679 /* ChatViewController.swift in Sources */,
 				7B350EBD271DA02700CCF7CF /* ViewController.swift in Sources */,
