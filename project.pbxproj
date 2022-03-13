@@ -111,7 +111,6 @@
 				7BED96E527328DD30044FA78 /* HowlTalk.entitlements */,
 				7BA6F68927259F71002F36B4 /* TabBar */,
 				7BDE6F4E2721854400625679 /* Model */,
-				7BDBEE9E2737E89B00DAE8B0 /* GoogleService-Info.plist */,
 				7B350EB8271DA02700CCF7CF /* AppDelegate.swift */,
 				7B350EBA271DA02700CCF7CF /* SceneDelegate.swift */,
 				7B350EBC271DA02700CCF7CF /* ViewController.swift */,
@@ -119,6 +118,7 @@
 				7B350EC1271DA02900CCF7CF /* Assets.xcassets */,
 				7B350EC3271DA02900CCF7CF /* LaunchScreen.storyboard */,
 				7B350EC6271DA02900CCF7CF /* Info.plist */,
+				7BDBEE9E2737E89B00DAE8B0 /* GoogleService-Info.plist */,
 				7B350ECE271DBE2C00CCF7CF /* RemoteConfigDefaults.plist */,
 				7B350ED0271EC92300CCF7CF /* LoginViewController.swift */,
 				7B350ED2271ED49A00CCF7CF /* SignupViewController.swift */,
@@ -432,6 +432,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q7GAMSRDQJ;
+				DISABLE_MANUAL_TARGET_ORDER_BUILD_WARNING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HowlTalk/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = HowlTalk;
@@ -466,6 +467,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q7GAMSRDQJ;
+				DISABLE_MANUAL_TARGET_ORDER_BUILD_WARNING = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HowlTalk/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = HowlTalk;
